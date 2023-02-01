@@ -1,10 +1,10 @@
 const mongoose = require('mongoose');
 
 const resortsSchema = mongoose.Schema({
-    resortsid: {
-        type: Number,
-        required: true,
-    },
+    // resortsid: {
+    //     type: Number,
+    //     required: true,
+    // },
     description: {
         type: String,
     },
